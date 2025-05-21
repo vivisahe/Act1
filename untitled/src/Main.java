@@ -6,6 +6,7 @@ public class Main {
         String y = JOptionPane.showInputDialog("Ingresa el segundo numero:");
         String z = JOptionPane.showInputDialog("Ingresa el tercer numero:");
         System.out.println("Resultado: "+((Double.parseDouble(x)+Double.parseDouble(y)+Double.parseDouble(z)))/3);
+        System.out.println("Hi");
 
     }
 }
